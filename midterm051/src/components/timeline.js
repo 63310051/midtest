@@ -5,6 +5,61 @@ export default class Timeline extends Component {
     return (
       <div>
         <div>
+          <section className="colorlib-services" data-section="services">
+            <div className="colorlib-narrow-content">
+              <div className="row">
+                <div
+                  className="col-md-6 col-md-offset-3 col-md-pull-3 animate-box"
+                  data-animate-effect="fadeInLeft"
+                >
+                  <span className="heading-meta">What I,ve lerant?</span>
+                  <h2 className="colorlib-heading">
+                    Here are some of subjects that i have learnt this year
+                  </h2>
+                  <p> ตัวอย่างรายวิชาบาส่วนที่เราได้เรียนไปในปีนี้ค่ะ </p>
+                </div>
+              </div>
+              <div className="row row-pt-md">
+                <div className="col-md-4 text-center animate-box">
+                  <div className="services color-1">
+                    <span className="icon">
+                      <i className="icon-bulb" />
+                    </span>
+                    <div className="desc">
+                      <h3>Internet Technology &amp; Services</h3>
+                      <p>29036059-59 </p>
+                      <p>การให้บริการ &amp; เทคโนโลยีทางอินเทอร์เน็ต</p>
+                    </div>
+                  </div>
+                </div>
+                <div className="col-md-4 text-center animate-box">
+                  <div className="services color-2">
+                    <span className="icon">
+                      <i className="icon-data" />
+                    </span>
+                    <div className="desc">
+                      <h3>Database Management System</h3>
+                      <p>29035059-59</p>
+                      <p>ระบบจัดการฐานข้อมูล</p>
+                    </div>
+                  </div>
+                </div>
+                <div className="col-md-4 text-center animate-box">
+                  <div className="services color-3">
+                    <span className="icon">
+                      <i className="icon-phone3" />
+                    </span>
+                    <div className="desc">
+                      <h3>Web Programming</h3>
+                      <p>2906159-59</p>
+                      <p>การเขียนโปรแกรมบนเว็บ</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+
           <section className="colorlib-skills" data-section="skills">
             <div className="colorlib-narrow-content">
               <div className="row">
@@ -18,61 +73,6 @@ export default class Timeline extends Component {
                   </h2>
                 </div>
               </div>
-
-              <section className="colorlib-services" data-section="services">
-                <div className="colorlib-narrow-content">
-                  <div className="row">
-                    <div
-                      className="col-md-6 col-md-offset-3 col-md-pull-3 animate-box"
-                      data-animate-effect="fadeInLeft"
-                    >
-                      <span className="heading-meta">What I,ve lerant?</span>
-                      <h2 className="colorlib-heading">
-                        Here are some of subjects that i have learnt this year
-                      </h2>
-                      <p> ตัวอย่างรายวิชาบาส่วนที่เราได้เรียนไปในปีนี้ค่ะ </p>
-                    </div>
-                  </div>
-                  <div className="row row-pt-md">
-                    <div className="col-md-4 text-center animate-box">
-                      <div className="services color-1">
-                        <span className="icon">
-                          <i className="icon-bulb" />
-                        </span>
-                        <div className="desc">
-                          <h3>Internet Technology &amp; Services</h3>
-                          <p>29036059-59 </p>
-                          <p>การให้บริการ &amp; เทคโนโลยีทางอินเทอร์เน็ต</p>
-                        </div>
-                      </div>
-                    </div>
-                    <div className="col-md-4 text-center animate-box">
-                      <div className="services color-2">
-                        <span className="icon">
-                          <i className="icon-data" />
-                        </span>
-                        <div className="desc">
-                          <h3>Database Management System</h3>
-                          <p>29035059-59</p>
-                          <p>ระบบจัดการฐานข้อมูล</p>
-                        </div>
-                      </div>
-                    </div>
-                    <div className="col-md-4 text-center animate-box">
-                      <div className="services color-3">
-                        <span className="icon">
-                          <i className="icon-phone3" />
-                        </span>
-                        <div className="desc">
-                          <h3>Web Programming</h3>
-                          <p>2906159-59</p>
-                          <p>การเขียนโปรแกรมบนเว็บ</p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </section>
 
               <div className="row">
                 <div
